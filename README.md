@@ -16,7 +16,6 @@ This project uses [Render](https://render.com/) for cloud deployment and storage
 - MySQL
 - HTML, CSS, Bootstrap
 
-## Getting Started
 ## Deploying to Render (Cloud)
 
 You can deploy this application to the cloud using [Render](https://render.com/):
@@ -30,8 +29,6 @@ You can deploy this application to the cloud using [Render](https://render.com/)
 5. Add environment variables for your MySQL database connection as needed.
 6. If using a managed database, set it up via Render and update your `app.py` configuration.
 7. Click "Create Web Service". Render will build and deploy your app in the cloud.
-
-Now your Cloud File Storage System will be accessible online!
 
 ### Prerequisites
 - Python 3.x
@@ -61,6 +58,3 @@ Now your Cloud File Storage System will be accessible online!
 ### Usage
 - Register a new account or log in with existing credentials.
 - Upload, download, and manage your files securely.
-
-## License
-This project is for educational purposes.
