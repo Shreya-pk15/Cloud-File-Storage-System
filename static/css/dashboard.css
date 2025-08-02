@@ -1,0 +1,178 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar (Top Bar) */
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+/* Main Content */
+.container {
+    padding-top: 80px;
+}
+
+/* Profile button */
+.btn-outline-primary {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #fff;
+    color: #3b82f6;
+}
+
+/* Logout button */
+.btn-outline-danger {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-outline-danger:hover {
+    background-color: #fff;
+    color: #ef4444;
+}
+
+/* Welcome text */
+.welcome-text {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #111827;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+    color: #333;
+}
+
+/* Table Styling */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: #555;
+    border-top: none;
+}
+
+.table td {
+    vertical-align: middle;
+    color: #666;
+}
+
+/* Upload Form */
+.upload-form {
+    margin-bottom: 20px;
+}
+
+.btn-upload {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+    background-color: #5a52d5;
+    color: #fff;
+}
+
+.btn-upload i {
+    margin-right: 5px;
+}
+
+/* Action Buttons (Download / Delete) */
+.btn-action {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.action-buttons .btn {
+    margin-right: 5px;
+}
+
+.action-buttons .btn:last-child {
+    margin-right: 0;
+}
+
+/* File Display */
+.file-info {
+    display: flex;
+    align-items: center;
+}
+
+.file-icon {
+    margin-right: 10px;
+    color: #6c63ff;
+}
+
+.file-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.file-date {
+    color: #888;
+    font-size: 0.9rem;
+}
